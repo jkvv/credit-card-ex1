@@ -20,5 +20,14 @@ public class CreditCardTest {
         card.block();
         Assert.assertTrue(card.isBlocked());
     }
+
+    public void withdrawedDecreaseAwolableFounds() {
+        CreditCard card = new CreditCard();
+        
+        card.assignLimit(2000);
+        card.withdraw(1000);
+        
+        Assert.assertTrue(card.getCountBalance() == 1000);
+    }
     
 }
