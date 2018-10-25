@@ -8,6 +8,11 @@ requirements
   - if card not blocked
   - can afford
 - repay debt
+- possible to set witdraw limits
+  - per day
+  - per month
+  - cash
+  - online
 
 technical requirements
 ----------------------
